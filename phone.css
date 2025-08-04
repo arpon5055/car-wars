@@ -146,11 +146,13 @@
  
    background-image: url(car.png);
    background-size: cover;
-   height: 250px;
+   height: 1000px;
    margin: auto;
    display: flex;
    align-items: flex-end;
    justify-content: center;
+     -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
  }
  #section1-msg{
       font-size: 1rem;
@@ -168,7 +170,7 @@
    align-items: center;
    justify-content: center;
    color: #000000;
-   background-color: #ffffff;
+   background-color: gray;
    height: 40px;
  
    
@@ -183,7 +185,7 @@
   margin: auto;
   gap: 20px;
   align-items: center;
- background:#08141c;
+ background:#ffffff;
  height: 4000px;
  flex-direction: row;
 
@@ -196,7 +198,7 @@
   height: 280px;
  /* border: 2px solid black;*/
   width: 80%;
-  background-color:#183153;
+  background-color:gray;
    padding: 20px;
    padding-top: 30px;
    padding-bottom: 30px;

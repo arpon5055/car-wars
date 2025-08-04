@@ -150,20 +150,23 @@
    display: flex;
    align-items: flex-end;
    justify-content: center;
+     -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
  }
  #section1-msg{
       font-size: 1rem;
    position: relative;
    width: 80%;
    margin-bottom: 25px;
-   font-weight: bold;   
+   font-weight: bold;  
+   margin: auto; 
  }
  #section1-msg p{
    display: flex;
    align-items: center;
    justify-content: center;
    color: #000000;
-   background-color: #ffffff;
+   background-color: gray;
    height: 40px;
  
    
@@ -178,9 +181,9 @@
   margin: auto;
   gap: 20px;
   align-items: center;
- background:#08141c;
+ background:#ffffff;
  height: 1300px;
-
+ overflow: hidden;
 
  
  }
@@ -190,7 +193,7 @@
   height: 500px;
  /* border: 2px solid black;*/
   width: 20%;
-  background-color:#183153;
+  background-color:gray;
    padding: 20px;
    padding-top: 30px;
    padding-bottom: 30px;
